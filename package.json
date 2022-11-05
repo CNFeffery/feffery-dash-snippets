@@ -1,0 +1,22 @@
+{
+  "name": "feffery-dash-snippets",
+  "displayName": "feffery-dash-snippets",
+  "description": "Handy dash app development code snippets plugin",
+  "version": "0.0.1",
+  "engines": {
+    "vscode": "^1.73.0"
+  },
+  "categories": [
+    "Snippets"
+  ],
+  "publisher": "feffery-dev",
+  "repository": "https://github.com/CNFeffery/feffery-dash-snippets",
+  "contributes": {
+    "snippets": [
+      {
+        "language": "python",
+        "path": "./snippets/snippets.code-snippets"
+      }
+    ]
+  }
+}
