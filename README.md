@@ -4,34 +4,58 @@
 
 ## 1 快捷代码片段
 
-### 1.1 快捷模块功能导入
+### 1.1 快捷Python代码片段
 
-- _`ihd`_：从`dash`快捷导入`html`、`dcc`
+#### 1.1.1 快捷模块功能导入
 
-- _`ibcr`_：从`dash`快捷导入基础回调角色`Input`、`Output`、`State`
+- *`ihd`*：从`dash`快捷导入`html`、`dcc`
 
-- _`ifac`_：快捷导入`feffery_antd_components`（`fac`）
+- *`ibcr`*：从`dash`快捷导入基础回调角色`Input`、`Output`、`State`
 
-- _`ifuc`_：快捷导入`feffery_utils_components`（`fuc`）
+- *`ifac`*：快捷导入`feffery_antd_components`（`fac`）
 
-- _`ifact`_：快捷导入`feffery_antd_charts`（`fact`）
+- *`ifuc`*：快捷导入`feffery_utils_components`（`fuc`）
 
-- _`ifmc`_：快捷导入`feffery_markdown_components`（`fmc`）
+- *`ifact`*：快捷导入`feffery_antd_charts`（`fact`）
 
-- _`iflc`_：快捷导入`feffery_leaflet_components`（`flc`）
+- *`ifmc`*：快捷导入`feffery_markdown_components`（`fmc`）
 
-### 1.2 flask 相关快捷逻辑初始化
+- *`iflc`*：快捷导入`feffery_leaflet_components`（`flc`）
 
-- _`flask:upload`_：快速初始化`flask`上传服务接口
+#### 1.1.2 flask 相关快捷逻辑初始化
 
-- _`flask:download`_：快速初始化`flask`下载服务接口
+- *`flask:upload`*：快速初始化`flask`上传服务接口
 
-### 1.3 回调相关快捷逻辑初始化
+- *`flask:download`*：快速初始化`flask`下载服务接口
 
-- _`callback:oi`_：快速初始化具有`Input`和`Output`角色的回调函数
+#### 1.1.3 回调相关快捷逻辑初始化
 
-- _`callback:ois`_：快速初始化具有`Input`、`Output`及`State`角色的回调函数
+- *`callback:oi`*：快速初始化具有`Input`和`Output`角色的回调函数
 
-### 1.4 其他快捷片段
+- *`callback:ois`*：快速初始化具有`Input`、`Output`及`State`角色的回调函数
 
-- _`pic=`_：快捷填入`prevent_initial_call=True`
+- *`callback-cs:oi`*：快速初始化具有`Input`和`Output`角色的浏览器端回调函数
+
+- *`callback-cs:ois`*：快速初始化具有`Input`、`Output`及`State`角色的浏览器端回调函数
+
+#### 1.1.4 其他快捷片段
+
+- *`pic=`*：快捷填入`prevent_initial_call=True`
+
+### 1.2 快捷Javascript代码片段
+
+#### 1.2.1 回调相关快捷逻辑初始化
+
+- *`callback:init`*：快捷生成浏览器端回调函数定义模板
+
+- *`dash.no_update`*：快捷插入浏览器端回调版本的`dash.no_update`
+
+- *`PreventUpdate`*：快捷插入浏览器端回调版本的`dash.PreventUpdate`
+
+- *`dash.callback_context`*：快捷插入浏览器端回调版本的`dash.callback_context`
+
+### 1.3 快捷Css代码片段
+
+- *`css>scrollbar`*：快捷构建兼容各主流浏览器的`滚动条美化`策略
+
+- *`css>init-loading`*：快捷构建`dash`应用自定义`初始加载动画策略`

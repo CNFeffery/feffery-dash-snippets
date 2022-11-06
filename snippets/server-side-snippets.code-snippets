@@ -91,6 +91,35 @@
     ],
     "description": "Code snippet to quickly create callback with state"
   },
+  "quickly create client side callback without state": {
+    "prefix": "callback-cs:oi",
+    "body": [
+      "app.clientside_callback(",
+      "    ClientsideFunction(",
+      "        namespace='',",
+      "        function_name=''",
+      "    ),",
+      "    Output('', ''),",
+      "    Input('', '')",
+      ")"
+    ],
+    "description": "Code snippet to quickly create client side callback without state"
+  },
+  "quickly create client side callback with state": {
+    "prefix": "callback-cs:ois",
+    "body": [
+      "app.clientside_callback(",
+      "    ClientsideFunction(",
+      "        namespace='',",
+      "        function_name=''",
+      "    ),",
+      "    Output('', ''),",
+      "    Input('', '')",
+      "    State('', '')",
+      ")"
+    ],
+    "description": "Code snippet to quickly create client side callback with state"
+  },
   // 其他快捷片段
   "set prevent_initial_call=True": {
     "prefix": "pic=",
