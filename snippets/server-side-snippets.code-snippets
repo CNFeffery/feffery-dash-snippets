@@ -125,5 +125,10 @@
     "prefix": "pic=",
     "body": ["prevent_initial_call=True"],
     "description": "Code snippet to add prevent_initial_call=True"
+  },
+  "generate dash debug mode run() structure": {
+    "prefix": "run:debug",
+    "body": ["if __name__ == '__main__':\n    app.run(debug=True)"],
+    "description": "generate dash debug mode run() structure"
   }
 }
