@@ -26,7 +26,7 @@
   },
   "dash.callback_context in client side": {
     "prefix": "dash.callback_context",
-    "body": ["window.dash_clientside.callback_contex"],
+    "body": ["window.dash_clientside.callback_context"],
     "description": "dash.callback_context in client side"
   }
 }
