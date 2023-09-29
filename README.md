@@ -22,6 +22,10 @@
 
 - `iflc`：快捷导入`feffery_leaflet_components`（`flc`）
 
+- `ifm`：快捷导入`feffery_maplibre`（`fm`）
+
+- `ifamc`：快捷导入`feffery_antd_mobile_components`（`famc`）
+
 #### 1.1.2 flask 相关快捷逻辑初始化
 
 - `flask:upload`：快速初始化`flask`上传服务接口
@@ -43,6 +47,8 @@
 - `pic=`：快捷填入`prevent_initial_call=True`
 
 - `run:debug`：快速创建`Dash`应用`debug`模式`if __name__ == '__main__':app.run(debug=True)`结构体
+
+- `ad=`：快捷填入`allow_duplicate=True`
 
 ### 1.2 快捷 Javascript 代码片段
 
