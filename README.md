@@ -32,6 +32,8 @@
 
 - `flask:download`：快速初始化`flask`下载服务接口
 
+- `flask:stream`：快速初始化`flask`流式服务（SSE）接口
+
 #### 1.1.3 回调相关快捷逻辑初始化
 
 - `callback:oi`：快速初始化具有`Input`和`Output`角色的回调函数
@@ -42,7 +44,11 @@
 
 - `callback-cs:ois`：快速初始化具有`Input`、`Output`及`State`角色的浏览器端回调函数
 
-#### 1.1.4 其他快捷片段
+#### 1.1.4 feffery-dash-utils 工具函数快捷导入
+
+- `utils:style`: 快捷导入`feffery_dash_utils.style_utils`中的`style()`函数
+
+#### 1.1.5 其他快捷片段
 
 - `pic=`：快捷填入`prevent_initial_call=True`
 

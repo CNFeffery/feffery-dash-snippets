@@ -80,7 +80,7 @@
             "            f.write(chunk)\n",
             "    return {'filename': filename}"
         ],
-        "description": "Code snippet to quickly create flask upload api"
+        "description": "Code snippet to quickly create flask upload api template"
     },
     "quickly create flask download api": {
         "prefix": "flask:download",
@@ -91,7 +91,20 @@
             "    filename = request.args.get('filename')\n",
             "    return send_from_directory(path, filename)"
         ],
-        "description": "Code snippet to quickly create flask download api"
+        "description": "Code snippet to quickly create flask download api template"
+    },
+    "quickly create flask stream api": {
+        "prefix": "flask:stream",
+        "body": [
+            "@app.server.route('/stream')",
+            "def stream():\n",
+            "    def _stream():",
+            "        for i in range(999):",
+            "            time.sleep(0.5)",
+            "            yield 'data: {}\\n\\n'.format(time.time())\n",
+            "    return Response(_stream(), mimetype='text/event-stream')"
+        ],
+        "description": "Code snippet to quickly create flask stream(sse) api template"
     },
     // 回调相关快捷逻辑初始化
     "quickly create callback without state": {
@@ -170,4 +183,11 @@
         ],
         "description": "Code snippet to add allow_duplicate=True"
     },
+    "quickly import style() from feffery-dash-utils": {
+        "prefix": "utils:style",
+        "body": [
+            "from feffery_dash_utils.style_utils import style"
+        ],
+        "description": "Code snippet to import style() from feffery-dash-utils quickly"
+    }
 }
