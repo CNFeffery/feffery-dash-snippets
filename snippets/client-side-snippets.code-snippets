@@ -28,5 +28,10 @@
     "prefix": "dash.callback_context",
     "body": ["window.dash_clientside.callback_context"],
     "description": "dash.callback_context in client side"
+  },
+  "dash.set_props() in client side": {
+    "prefix": "set_props",
+    "body": ["window.dash_clientside.set_props()"],
+    "description": "dash.set_props() in client side"
   }
 }

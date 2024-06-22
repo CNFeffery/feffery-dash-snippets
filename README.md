@@ -56,7 +56,7 @@
 
 - `ad=`：快捷填入`allow_duplicate=True`
 
-### 1.2 快捷 Javascript 代码片段
+### 1.2 快捷 JavaScript 代码片段
 
 #### 1.2.1 回调相关快捷逻辑初始化
 
@@ -68,7 +68,9 @@
 
 - `dash.callback_context`：快捷插入浏览器端回调版本的`dash.callback_context`
 
-### 1.3 快捷 Css 代码片段
+- `set_props`: 快捷插入浏览器端回调版本的`dash.set_props()`
+
+### 1.3 快捷 CSS 代码片段
 
 - `css>scrollbar`：快捷构建兼容各主流浏览器的`滚动条美化`策略
 
