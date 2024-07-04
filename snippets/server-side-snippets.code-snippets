@@ -189,5 +189,12 @@
             "from feffery_dash_utils.style_utils import style"
         ],
         "description": "Code snippet to import style() from feffery-dash-utils quickly"
+    },
+    "quickly import TreeManager from feffery-dash-utils": {
+        "prefix": "utils:tm",
+        "body": [
+            "from feffery_dash_utils.tree_utils import TreeManager"
+        ],
+        "description": "Code snippet to import TreeManager from feffery-dash-utils quickly"
     }
 }

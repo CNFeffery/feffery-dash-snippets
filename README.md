@@ -48,6 +48,8 @@
 
 - `utils:style`: 快捷导入`feffery_dash_utils.style_utils`中的`style()`函数
 
+- `utils:tm`: 快捷导入`feffery_dash_utils.tree_utils`中的`TreeManager`类
+
 #### 1.1.5 其他快捷片段
 
 - `pic=`：快捷填入`prevent_initial_call=True`
