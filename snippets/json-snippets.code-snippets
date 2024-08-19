@@ -1,0 +1,16 @@
+{
+    "locales": {
+        "prefix": "locales",
+        "body": [
+            "{",
+            "    \"root_locale\": \"zh-cn\",",
+            "    \"contents\": {",
+            "        \"示例文案\": {",
+            "            \"en-us\": \"Sample text\"",
+            "        }",
+            "    }",
+            "}",
+        ],
+        "description": "Code snippet to generate template translations locales JSON file for feffery-dash-utils.i18n_utils.Translator"
+    }
+}

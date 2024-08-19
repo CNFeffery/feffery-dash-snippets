@@ -31,6 +31,10 @@
       {
         "language": "css",
         "path": "./snippets/css-snippets.code-snippets"
+      },
+      {
+        "language": "json",
+        "path": "./snippets/json-snippets.code-snippets"
       }
     ]
   }

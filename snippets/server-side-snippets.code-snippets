@@ -196,5 +196,12 @@
             "from feffery_dash_utils.tree_utils import TreeManager"
         ],
         "description": "Code snippet to import TreeManager from feffery-dash-utils quickly"
+    },
+    "quickly import i18n_utils.Translator from feffery-dash-utils": {
+        "prefix": "utils:i18n",
+        "body": [
+            "from feffery_dash_utils.i18n_utils import Translator"
+        ],
+        "description": "Code snippet to import i18n_utils.Translator from feffery-dash-utils quickly"
     }
 }
