@@ -50,6 +50,8 @@
 
 - `utils:tm`: 快捷导入`feffery_dash_utils.tree_utils`中的`TreeManager`类
 
+- `utils:i18n`: 快捷导入`feffery_dash_utils.i18n`中的`Translator`类
+
 #### 1.1.5 其他快捷片段
 
 - `pic=`：快捷填入`prevent_initial_call=True`
@@ -77,3 +79,7 @@
 - `css>scrollbar`：快捷构建兼容各主流浏览器的`滚动条美化`策略
 
 - `css>init-loading`：快捷构建`dash`应用自定义`初始加载动画策略`
+
+### 1.4 快捷 JSON 代码片段
+
+- `locales`：在`JSON`数据中快捷生成`feffery_dash_utils.i18n.Translator`对应的本地国际化配置模板
