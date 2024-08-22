@@ -1,5 +1,7 @@
 # feffery-dash-snippets: Dash 实用代码片段
 
+简体中文 | [English](./README-en_US.md)
+
 ![](https://raw.githubusercontent.com/CNFeffery/feffery-dash-snippets/main/assets/demo.gif)
 
 ## 1 快捷代码片段
