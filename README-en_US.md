@@ -66,15 +66,29 @@
 
 #### 1.2.1 Callback-Related Quick Logic Initialization
 
-- `callback:init`: Quickly generate a template for defining client-side callback functions
+- `callback:init`: Quickly generate a template for defining callback functions on the browser side.
 
-- `dash.no_update`: Quickly insert `dash.no_update` for client-side callbacks
+- `callback:no_update`: Quickly insert the browser-side callback version of `dash.no_update`.
 
-- `PreventUpdate`: Quickly insert `dash.PreventUpdate` for client-side callbacks
+- `callback:PreventUpdate`: Quickly insert the browser-side callback version of `PreventUpdate`.
 
-- `dash.callback_context`: Quickly insert `dash.callback_context` for client-side callbacks
+- `callback:ctx`: Quickly insert the browser-side callback version of `dash.ctx`.
 
-- `set_props`: Quickly insert `dash.set_props()` for client-side callbacks
+- `callback:set_props`: Quickly insert the browser-side callback version of `set_props()`.
+
+- `callback:triggered`: Quickly insert the browser-side callback version of `dash.ctx.triggered`.
+
+- `callback:triggered_id`: Quickly insert the browser-side callback version of `dash.ctx.triggered_id`.
+
+- `callback:inputs_list`: Quickly insert the browser-side callback version of `dash.ctx.inputs_list`.
+
+- `callback:inputs`: Quickly insert the browser-side callback version of `dash.ctx.inputs`.
+
+- `callback:states_list`: Quickly insert the browser-side callback version of `dash.ctx.states_list`.
+
+- `callback:states`: Quickly insert the browser-side callback version of `dash.ctx.states`.
+
+- `callback:outputs_list`: Quickly insert the browser-side callback version of `dash.ctx.outputs_list`.
 
 ### 1.3 Quick CSS Code Snippets
 

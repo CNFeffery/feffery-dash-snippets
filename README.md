@@ -68,13 +68,27 @@
 
 - `callback:init`：快捷生成浏览器端回调函数定义模板
 
-- `dash.no_update`：快捷插入浏览器端回调版本的`dash.no_update`
+- `callback:no_update`：快捷插入浏览器端回调版本的`dash.no_update`
 
-- `PreventUpdate`：快捷插入浏览器端回调版本的`dash.PreventUpdate`
+- `callback:PreventUpdate`：快捷插入浏览器端回调版本的`PreventUpdate`
 
-- `dash.callback_context`：快捷插入浏览器端回调版本的`dash.callback_context`
+- `callback:ctx`：快捷插入浏览器端回调版本的`dash.ctx`
 
-- `set_props`: 快捷插入浏览器端回调版本的`dash.set_props()`
+- `callback:set_props`：快捷插入浏览器端回调版本的`set_props()`
+
+- `callback:triggered`：快捷插入浏览器端回调版本的`dash.ctx.triggered`
+
+- `callback:triggered_id`：快捷插入浏览器端回调版本的`dash.ctx.triggered_id`
+
+- `callback:inputs_list`：快捷插入浏览器端回调版本的`dash.ctx.inputs_list`
+
+- `callback:inputs`：快捷插入浏览器端回调版本的`dash.ctx.inputs`
+
+- `callback:states_list`：快捷插入浏览器端回调版本的`dash.ctx.states_list`
+
+- `callback:states`：快捷插入浏览器端回调版本的`dash.ctx.states`
+
+- `callback:outputs_list`：快捷插入浏览器端回调版本的`dash.ctx.outputs_list`
 
 ### 1.3 快捷 CSS 代码片段
 
