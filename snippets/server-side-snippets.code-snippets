@@ -87,7 +87,9 @@
         "body": [
             "@app.server.route('/download')",
             "def download():\n",
-            "    path = request.args.get('path')",
+            "    path = request.args.get('path')\n",
+            "    if '..' in path:",
+            "        abort(403)\n",
             "    filename = request.args.get('filename')\n",
             "    return send_from_directory(path, filename)"
         ],
