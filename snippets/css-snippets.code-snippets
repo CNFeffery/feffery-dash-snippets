@@ -1,44 +1,15 @@
 {
-  // 常用原生css样式美化
   "customize the scrollbar": {
     "prefix": "css>scrollbar",
     "body": [
-      "/* chrome, edge */",
-      ".your-scrollbar-class::-webkit-scrollbar-thumb {",
-      "  background-color: #bfbfbf;",
-      "  outline: none;",
-      "  border-radius: 6px;",
-      "}",
-      ".your-scrollbar-class::-webkit-scrollbar {",
-      "  width: 6px;",
-      "  height: 6px;",
-      "}\n",
-      "/* firefox */",
-      ".your-scrollbar-class {",
-      "  scrollbar-width: thin;",
-      "}"
+      "/* chrome, edge */\n.your-scrollbar-class::-webkit-scrollbar-thumb {\n    background-color: #bfbfbf;\n    outline: none;\n    border-radius: 6px;\n}\n\n.your-scrollbar-class::-webkit-scrollbar {\n    width: 6px;\n    height: 6px;\n}\n\n/* firefox */\n.your-scrollbar-class {\n    scrollbar-width: thin;\n}"
     ],
     "description": "Code snippet to customize the scrollbar"
   },
   "customize the initial loading animation": {
     "prefix": "css>init-loading",
     "body": [
-      "/* customize the initial loading animation */",
-      "._dash-loading {",
-      "  color: transparent;",
-      "  position: fixed;",
-      "  width: <width>;",
-      "  height: <height>;",
-      "  top: 50vh;",
-      "  left: 50vw;",
-      "  transform: translate(-50%, -50%);",
-      "  background-image: url('/assets/<your image path>');",
-      "  background-repeat: no-repeat;",
-      "  background-size: 100% 100%;",
-      "}\n",
-      "._dash-loading::after {",
-      "  content: '';",
-      "}"
+      "/* customize the initial loading animation */\n._dash-loading {\n    color: transparent;\n    position: fixed;\n    width: <width>;\n    height: <height>;\n    top: 50vh;\n    left: 50vw;\n    transform: translate(-50%, -50%);\n    background-image: url('/assets/<your image path>');\n    background-repeat: no-repeat;\n    background-size: 100% 100%;\n}\n\n._dash-loading::after {\n    content: '';\n}"
     ],
     "description": "Code snippet to customize the initial loading animation"
   }

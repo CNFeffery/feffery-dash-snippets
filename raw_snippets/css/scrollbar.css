@@ -1,0 +1,16 @@
+/* chrome, edge */
+.your-scrollbar-class::-webkit-scrollbar-thumb {
+    background-color: #bfbfbf;
+    outline: none;
+    border-radius: 6px;
+}
+
+.your-scrollbar-class::-webkit-scrollbar {
+    width: 6px;
+    height: 6px;
+}
+
+/* firefox */
+.your-scrollbar-class {
+    scrollbar-width: thin;
+}

@@ -3,7 +3,7 @@
 ```bash
 npm i vsce -g
 
-vsce package
+python generate_snippets.py && vsce package
 ```
 
 - 登陆插件管理平台进行发布

@@ -1,16 +1,9 @@
 {
-    "locales": {
-        "prefix": "locales",
-        "body": [
-            "{",
-            "    \"root_locale\": \"zh-cn\",",
-            "    \"contents\": {",
-            "        \"示例文案\": {",
-            "            \"en-us\": \"Sample text\"",
-            "        }",
-            "    }",
-            "}",
-        ],
-        "description": "Code snippet to generate template translations locales JSON file for feffery-dash-utils.i18n_utils.Translator"
-    }
+  "locales": {
+    "prefix": "locales",
+    "body": [
+      "{\n    \"root_locale\": \"zh-cn\",\n    \"contents\": {\n        \"示例文案\": {\n            \"en-us\": \"Sample text\"\n        }\n    }\n}"
+    ],
+    "description": "Code snippet to generate template translations locales JSON file for feffery-dash-utils.i18n_utils.Translator"
+  }
 }

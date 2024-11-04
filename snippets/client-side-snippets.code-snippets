@@ -1,19 +1,11 @@
 {
-  // 浏览器端回调相关快捷逻辑初始化
   "quickly initialize the structure of the client side callback function": {
     "prefix": "callback:init",
     "body": [
-      "window.dash_clientside = Object.assign({}, window.dash_clientside, {",
-      "    clientside: {",
-      "        func1: () => {",
-      "            // write your code logic",
-      "        }",
-      "    }",
-      "});"
+      "window.dash_clientside = Object.assign({}, window.dash_clientside, {\n    clientside: {\n        func1: () => {\n            // write your code logic\n        }\n    }\n});"
     ],
     "description": "Quickly initialize the structure of the client side callback function"
   },
-  // 浏览器端回调常用对象
   "dash.no_update in client side": {
     "prefix": "callback:no_update",
     "body": [
@@ -90,5 +82,5 @@
       "window.dash_clientside.callback_context.outputs_list"
     ],
     "description": "dash.ctx.outputs_list in client side"
-  },
+  }
 }

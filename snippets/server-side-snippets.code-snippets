@@ -1,209 +1,156 @@
 {
-    // 快捷模块功能导入
-    "import html, dcc from dash": {
-        "prefix": "ihd",
-        "body": [
-            "from dash import html, dcc"
-        ],
-        "description": "Code snippet to import html and dcc from dash"
-    },
-    "import basic callback roles": {
-        "prefix": "ibcr",
-        "body": [
-            "from dash.dependencies import Input, Output, State"
-        ],
-        "description": "Code snippet to import basic callback roles from dash"
-    },
-    "import fac": {
-        "prefix": "ifac",
-        "body": [
-            "import feffery_antd_components as fac"
-        ],
-        "description": "Code snippet to import fac"
-    },
-    "import fuc": {
-        "prefix": "ifuc",
-        "body": [
-            "import feffery_utils_components as fuc"
-        ],
-        "description": "Code snippet to import fuc"
-    },
-    "import fact": {
-        "prefix": "ifact",
-        "body": [
-            "import feffery_antd_charts as fact"
-        ],
-        "description": "Code snippet to import fact"
-    },
-    "import fmc": {
-        "prefix": "ifmc",
-        "body": [
-            "import feffery_markdown_components as fmc"
-        ],
-        "description": "Code snippet to import fmc"
-    },
-    "import flc": {
-        "prefix": "iflc",
-        "body": [
-            "import feffery_leaflet_components as flc"
-        ],
-        "description": "Code snippet to import flc"
-    },
-    "import fm": {
-        "prefix": "ifm",
-        "body": [
-            "import feffery_maplibre as fm"
-        ],
-        "description": "Code snippet to import fm"
-    },
-    "import famc": {
-        "prefix": "ifamc",
-        "body": [
-            "import feffery_antd_mobile_components as famc"
-        ],
-        "description": "Code snippet to import famc"
-    },
-    // flask相关快捷逻辑初始化
-    "quickly create flask upload api": {
-        "prefix": "flask:upload",
-        "body": [
-            "@app.server.route('/upload', methods=['POST'])",
-            "def upload():\n",
-            "    uploadId = request.values.get('uploadId')",
-            "    filename = request.files['file'].filename\n",
-            "    try:",
-            "        os.mkdir(os.path.join('caches', uploadId))",
-            "    except FileExistsError:",
-            "        pass",
-            "    with open(os.path.join('caches', uploadId, filename), 'wb') as f:",
-            "        for chunk in iter(lambda: request.files['file'].read(1024 * 1024 * 10), b''):",
-            "            f.write(chunk)\n",
-            "    return {'filename': filename}"
-        ],
-        "description": "Code snippet to quickly create flask upload api template"
-    },
-    "quickly create flask download api": {
-        "prefix": "flask:download",
-        "body": [
-            "@app.server.route('/download')",
-            "def download():\n",
-            "    path = request.args.get('path')\n",
-            "    if '..' in path:",
-            "        abort(403)\n",
-            "    filename = request.args.get('filename')\n",
-            "    return send_from_directory(path, filename)"
-        ],
-        "description": "Code snippet to quickly create flask download api template"
-    },
-    "quickly create flask stream api": {
-        "prefix": "flask:stream",
-        "body": [
-            "@app.server.route('/stream')",
-            "def stream():\n",
-            "    def _stream():",
-            "        for i in range(999):",
-            "            time.sleep(0.5)",
-            "            yield 'data: {}\\n\\n'.format(time.time())\n",
-            "    return Response(_stream(), mimetype='text/event-stream')"
-        ],
-        "description": "Code snippet to quickly create flask stream(sse) api template"
-    },
-    // 回调相关快捷逻辑初始化
-    "quickly create callback without state": {
-        "prefix": "callback:oi",
-        "body": [
-            "@app.callback(",
-            "    Output('', ''),",
-            "    Input('', ''),",
-            ")",
-            "def callback_func():\n",
-            "    return dash.no_update"
-        ],
-        "description": "Code snippet to quickly create callback without state"
-    },
-    "quickly create callback with state": {
-        "prefix": "callback:ois",
-        "body": [
-            "@app.callback(",
-            "    Output('', ''),",
-            "    Input('', ''),",
-            "    State('', ''),",
-            ")",
-            "def callback_func():\n",
-            "    return dash.no_update"
-        ],
-        "description": "Code snippet to quickly create callback with state"
-    },
-    "quickly create client side callback without state": {
-        "prefix": "callback-cs:oi",
-        "body": [
-            "app.clientside_callback(",
-            "    ClientsideFunction(",
-            "        namespace='',",
-            "        function_name=''",
-            "    ),",
-            "    Output('', ''),",
-            "    Input('', '')",
-            ")"
-        ],
-        "description": "Code snippet to quickly create client side callback without state"
-    },
-    "quickly create client side callback with state": {
-        "prefix": "callback-cs:ois",
-        "body": [
-            "app.clientside_callback(",
-            "    ClientsideFunction(",
-            "        namespace='',",
-            "        function_name=''",
-            "    ),",
-            "    Output('', ''),",
-            "    Input('', ''),",
-            "    State('', '')",
-            ")"
-        ],
-        "description": "Code snippet to quickly create client side callback with state"
-    },
-    // 其他快捷片段
-    "set prevent_initial_call=True": {
-        "prefix": "pic=",
-        "body": [
-            "prevent_initial_call=True"
-        ],
-        "description": "Code snippet to add prevent_initial_call=True"
-    },
-    "generate dash debug mode run() structure": {
-        "prefix": "run:debug",
-        "body": [
-            "if __name__ == '__main__':\n    app.run(debug=True)"
-        ],
-        "description": "generate dash debug mode run() structure"
-    },
-    "set allow_duplicate=True": {
-        "prefix": "ad=",
-        "body": [
-            "allow_duplicate=True"
-        ],
-        "description": "Code snippet to add allow_duplicate=True"
-    },
-    "quickly import style() from feffery-dash-utils": {
-        "prefix": "utils:style",
-        "body": [
-            "from feffery_dash_utils.style_utils import style"
-        ],
-        "description": "Code snippet to import style() from feffery-dash-utils quickly"
-    },
-    "quickly import TreeManager from feffery-dash-utils": {
-        "prefix": "utils:tm",
-        "body": [
-            "from feffery_dash_utils.tree_utils import TreeManager"
-        ],
-        "description": "Code snippet to import TreeManager from feffery-dash-utils quickly"
-    },
-    "quickly import i18n_utils.Translator from feffery-dash-utils": {
-        "prefix": "utils:i18n",
-        "body": [
-            "from feffery_dash_utils.i18n_utils import Translator"
-        ],
-        "description": "Code snippet to import i18n_utils.Translator from feffery-dash-utils quickly"
-    }
+  "import html, dcc from dash": {
+    "prefix": "ihd",
+    "body": [
+      "from dash import html, dcc"
+    ],
+    "description": "Code snippet to import html and dcc from dash"
+  },
+  "import basic callback roles": {
+    "prefix": "ibcr",
+    "body": [
+      "from dash.dependencies import Input, Output, State"
+    ],
+    "description": "Code snippet to import basic callback roles from dash"
+  },
+  "import fac": {
+    "prefix": "ifac",
+    "body": [
+      "import feffery_antd_components as fac"
+    ],
+    "description": "Code snippet to import fac"
+  },
+  "import fuc": {
+    "prefix": "ifuc",
+    "body": [
+      "import feffery_utils_components as fuc"
+    ],
+    "description": "Code snippet to import fuc"
+  },
+  "import fact": {
+    "prefix": "ifact",
+    "body": [
+      "import feffery_antd_charts as fact"
+    ],
+    "description": "Code snippet to import fact"
+  },
+  "import fmc": {
+    "prefix": "ifmc",
+    "body": [
+      "import feffery_markdown_components as fmc"
+    ],
+    "description": "Code snippet to import fmc"
+  },
+  "import flc": {
+    "prefix": "iflc",
+    "body": [
+      "import feffery_leaflet_components as flc"
+    ],
+    "description": "Code snippet to import flc"
+  },
+  "import fm": {
+    "prefix": "ifm",
+    "body": [
+      "import feffery_maplibre as fm"
+    ],
+    "description": "Code snippet to import fm"
+  },
+  "import famc": {
+    "prefix": "ifamc",
+    "body": [
+      "import feffery_antd_mobile_components as famc"
+    ],
+    "description": "Code snippet to import famc"
+  },
+  "quickly create flask upload api": {
+    "prefix": "flask:upload",
+    "body": [
+      "@app.server.route('/upload', methods=['POST'])\ndef upload():\n\n    uploadId = request.values.get('uploadId')\n    filename = request.files['file'].filename\n\n    try:\n        os.mkdir(os.path.join('caches', uploadId))\n    except FileExistsError:\n        pass\n    with open(os.path.join('caches', uploadId, filename), 'wb') as f:\n        for chunk in iter(lambda: request.files['file'].read(1024 * 1024 * 10), b''):\n            f.write(chunk)\n\n    return {'filename': filename}"
+    ],
+    "description": "Code snippet to quickly create flask upload api template"
+  },
+  "quickly create flask download api": {
+    "prefix": "flask:download",
+    "body": [
+      "@app.server.route('/download')\ndef download():\n\n    path = request.args.get('path')\n\n    if '..' in path:\n        abort(403)\n\n    filename = request.args.get('filename')\n\n    return send_from_directory(path, filename)"
+    ],
+    "description": "Code snippet to quickly create flask download api template"
+  },
+  "quickly create flask stream api": {
+    "prefix": "flask:stream",
+    "body": [
+      "@app.server.route('/stream')\ndef stream():\n\n    def _stream():\n        for i in range(999):\n            time.sleep(0.5)\n            yield 'data: {}\\n\\n'.format(time.time())\n\n    return Response(_stream(), mimetype='text/event-stream')"
+    ],
+    "description": "Code snippet to quickly create flask stream(sse) api template"
+  },
+  "quickly create callback without state": {
+    "prefix": "callback:oi",
+    "body": [
+      "@app.callback(\n    Output('', ''),\n    Input('', ''),\n)\ndef callback_func():\n\n    return dash.no_update"
+    ],
+    "description": "Code snippet to quickly create callback without state"
+  },
+  "quickly create callback with state": {
+    "prefix": "callback:ois",
+    "body": [
+      "@app.callback(\n    Output('', ''),\n    Input('', ''),\n    State('', ''),\n)\ndef callback_func():\n\n    return dash.no_update"
+    ],
+    "description": "Code snippet to quickly create callback with state"
+  },
+  "quickly create client side callback without state": {
+    "prefix": "callback-cs:oi",
+    "body": [
+      "app.clientside_callback(\n    ClientsideFunction(\n        namespace='',\n        function_name=''\n    ),\n    Output('', ''),\n    Input('', '')\n)"
+    ],
+    "description": "Code snippet to quickly create client side callback without state"
+  },
+  "quickly create client side callback with state": {
+    "prefix": "callback-cs:ois",
+    "body": [
+      "app.clientside_callback(\n    ClientsideFunction(\n        namespace='',\n        function_name=''\n    ),\n    Output('', ''),\n    Input('', ''),\n    State('', '')\n)"
+    ],
+    "description": "Code snippet to quickly create client side callback with state"
+  },
+  "set prevent_initial_call=True": {
+    "prefix": "pic=",
+    "body": [
+      "prevent_initial_call=True"
+    ],
+    "description": "Code snippet to add prevent_initial_call=True"
+  },
+  "generate dash debug mode run() structure": {
+    "prefix": "run:debug",
+    "body": [
+      "if __name__ == '__main__':\n    app.run(debug=True)"
+    ],
+    "description": "generate dash debug mode run() structure"
+  },
+  "set allow_duplicate=True": {
+    "prefix": "ad=",
+    "body": [
+      "allow_duplicate=True"
+    ],
+    "description": "Code snippet to add allow_duplicate=True"
+  },
+  "quickly import style() from feffery-dash-utils": {
+    "prefix": "utils:style",
+    "body": [
+      "from feffery_dash_utils.style_utils import style"
+    ],
+    "description": "Code snippet to import style() from feffery-dash-utils quickly"
+  },
+  "quickly import TreeManager from feffery-dash-utils": {
+    "prefix": "utils:tm",
+    "body": [
+      "from feffery_dash_utils.tree_utils import TreeManager"
+    ],
+    "description": "Code snippet to import TreeManager from feffery-dash-utils quickly"
+  },
+  "quickly import i18n_utils.Translator from feffery-dash-utils": {
+    "prefix": "utils:i18n",
+    "body": [
+      "from feffery_dash_utils.i18n_utils import Translator"
+    ],
+    "description": "Code snippet to import i18n_utils.Translator from feffery-dash-utils quickly"
+  }
 }
