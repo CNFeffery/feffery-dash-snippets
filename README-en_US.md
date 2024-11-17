@@ -62,6 +62,10 @@
 
 - `ad=`: Quickly fill in `allow_duplicate=True`
 
+#### 1.1.6 Quick Page Template Generation
+
+- `template:basic_tool`: Quickly generate a single-page basic tool-type app
+
 ### 1.2 Quick JavaScript Code Snippets
 
 #### 1.2.1 Callback-Related Quick Logic Initialization

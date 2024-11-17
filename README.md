@@ -62,6 +62,10 @@
 
 - `ad=`：快捷填入`allow_duplicate=True`
 
+#### 1.1.6 快捷页面模板生成
+
+- `template:basic_tool`：快捷生成单页面基础工具型应用
+
 ### 1.2 快捷 JavaScript 代码片段
 
 #### 1.2.1 回调相关快捷逻辑初始化

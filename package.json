@@ -35,6 +35,10 @@
       {
         "language": "json",
         "path": "./snippets/json-snippets.code-snippets"
+      },
+      {
+        "language": "python",
+        "path": "./snippets/server-side-template-snippets.code-snippets"
       }
     ]
   }

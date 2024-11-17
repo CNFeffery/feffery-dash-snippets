@@ -247,6 +247,18 @@ raw_snippets = [
             }
         ],
     },
+    {
+        'name': 'server-side-template-snippets',
+        'language': 'python',
+        'items': [
+            {
+                'title': 'basic tool',
+                'prefix': 'template:basic_tool',
+                'description': 'Quickly generate code template for basic tool type app',
+                'body_path': r'raw_snippets\py\templates\basic_tool.py',
+            }
+        ],
+    },
 ]
 
 
