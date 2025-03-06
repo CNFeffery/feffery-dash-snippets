@@ -256,6 +256,12 @@ raw_snippets = [
                 'prefix': 'template:basic_tool',
                 'description': 'Quickly generate code template for basic tool type app',
                 'body_path': r'raw_snippets\py\templates\basic_tool.py',
+            },
+            {
+                'title': 'blank',
+                'prefix': 'template:blank',
+                'description': 'Quickly generate code template for blank app',
+                'body_path': r'raw_snippets\py\templates\blank.py',
             }
         ],
     },
