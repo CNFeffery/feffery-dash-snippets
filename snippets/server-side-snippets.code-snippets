@@ -152,5 +152,12 @@
       "from feffery_dash_utils.i18n_utils import Translator"
     ],
     "description": "Code snippet to import i18n_utils.Translator from feffery-dash-utils quickly"
+  },
+  "quickly import all custom components in template_utils.dashboard_components from feffery-dash-utils": {
+    "prefix": "utils:dc",
+    "body": [
+      "from feffery_dash_utils.template_utils.dashboard_components import (\n    welcome_card,\n    blank_card,\n    index_card,\n    simple_chart_card,\n)"
+    ],
+    "description": "Code snippet to import all custom components in template_utils.dashboard_components from feffery-dash-utils quickly"
   }
 }

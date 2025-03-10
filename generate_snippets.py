@@ -137,6 +137,12 @@ raw_snippets = [
                 'description': 'Code snippet to import i18n_utils.Translator from feffery-dash-utils quickly',
                 'body_path': r'raw_snippets\py\utils_i18n.py',
             },
+            {
+                'title': 'quickly import all custom components in template_utils.dashboard_components from feffery-dash-utils',
+                'prefix': 'utils:dc',
+                'description': 'Code snippet to import all custom components in template_utils.dashboard_components from feffery-dash-utils quickly',
+                'body_path': r'raw_snippets\py\utils_dc.py',
+            },
         ],
     },
     {
@@ -262,7 +268,7 @@ raw_snippets = [
                 'prefix': 'template:blank',
                 'description': 'Quickly generate code template for blank app',
                 'body_path': r'raw_snippets\py\templates\blank.py',
-            }
+            },
         ],
     },
 ]
@@ -295,3 +301,4 @@ if __name__ == '__main__':
                 indent=2,
                 ensure_ascii=False,
             )
+    print('指令生成完成')

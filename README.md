@@ -54,6 +54,8 @@
 
 - `utils:i18n`: 快捷导入`feffery_dash_utils.i18n`中的`Translator`类
 
+- `utils:dc`: 快捷导入`feffery_dash_utils.template_utils.dashboard_components`中全部的内置自定义组件
+
 #### 1.1.5 其他快捷片段
 
 - `pic=`：快捷填入`prevent_initial_call=True`

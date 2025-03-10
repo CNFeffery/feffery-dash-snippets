@@ -54,6 +54,8 @@
 
 - `utils:i18n`: Quickly import the `Translator` class from `feffery_dash_utils.i18n`
 
+- `utils:dc`: Quickly import all built-in custom components in `feffery_dash_utils.template_utils.dashboard_components`
+
 #### 1.1.5 Other Quick Snippets
 
 - `pic=`: Quickly fill in `prevent_initial_call=True`
@@ -65,6 +67,8 @@
 #### 1.1.6 Quick Page Template Generation
 
 - `template:basic_tool`: Quickly generate a single-page basic tool-type app
+
+- `template:blank`: Quickly generate a basic blank application template
 
 ### 1.2 Quick JavaScript Code Snippets
 
