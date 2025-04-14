@@ -143,6 +143,12 @@ raw_snippets = [
                 'description': 'Code snippet to import all custom components in template_utils.dashboard_components from feffery-dash-utils quickly',
                 'body_path': r'raw_snippets\py\utils_dc.py',
             },
+            {
+                'title': 'quickly import check_python_version() and check_dependencies_version() from feffery-dash-utils',
+                'prefix': 'utils:version-check',
+                'description': 'Code snippet to import check_python_version() and check_dependencies_version() from feffery-dash-utils quickly',
+                'body_path': r'raw_snippets\py\utils_version_check.py',
+            },
         ],
     },
     {

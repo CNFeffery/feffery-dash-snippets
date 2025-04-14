@@ -159,5 +159,12 @@
       "from feffery_dash_utils.template_utils.dashboard_components import (\n    welcome_card,\n    blank_card,\n    index_card,\n    simple_chart_card,\n)"
     ],
     "description": "Code snippet to import all custom components in template_utils.dashboard_components from feffery-dash-utils quickly"
+  },
+  "quickly import check_python_version() and check_dependencies_version() from feffery-dash-utils": {
+    "prefix": "utils:version-check",
+    "body": [
+      "from feffery_dash_utils.version_utils import (\n    check_python_version,\n    check_dependencies_version,\n)"
+    ],
+    "description": "Code snippet to import check_python_version() and check_dependencies_version() from feffery-dash-utils quickly"
   }
 }

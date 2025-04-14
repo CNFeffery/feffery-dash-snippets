@@ -56,6 +56,8 @@
 
 - `utils:dc`: 快捷导入`feffery_dash_utils.template_utils.dashboard_components`中全部的内置自定义组件
 
+- `utils:version-check`: 快捷导入`feffery_dash_utils.version_utils`中的`check_python_version()`和`check_dependencies_version()`
+
 #### 1.1.5 其他快捷片段
 
 - `pic=`：快捷填入`prevent_initial_call=True`

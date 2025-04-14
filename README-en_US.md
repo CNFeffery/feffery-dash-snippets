@@ -56,6 +56,8 @@
 
 - `utils:dc`: Quickly import all built-in custom components in `feffery_dash_utils.template_utils.dashboard_components`
 
+- `utils:version-check`: Quickly import the `check_python_version()` and `check_dependencies_version()` functions from `feffery_dash_utils.version_utils`
+
 #### 1.1.5 Other Quick Snippets
 
 - `pic=`: Quickly fill in `prevent_initial_call=True`
