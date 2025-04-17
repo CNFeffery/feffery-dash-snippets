@@ -69,8 +69,8 @@
 #### 1.1.6 Quick Page Template Generation
 
 - `template:basic_tool`: Quickly generate a single-page basic tool-type app
-
 - `template:blank`: Quickly generate a basic blank application template
+- `template:fact-jupyter`：Quickly generate`fact`template which is run in `jupyter`
 
 ### 1.2 Quick JavaScript Code Snippets
 
