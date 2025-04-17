@@ -69,7 +69,9 @@
 #### 1.1.6 快捷页面模板生成
 
 - `template:basic_tool`：快捷生成单页面基础工具型应用模板
+
 - `template:blank`：快捷生成最基础的空白应用模板
+
 - `template:fact-jupyter`：快捷生成`fact`在`jupyter`中使用的模板
 
 ### 1.2 快捷 JavaScript 代码片段
