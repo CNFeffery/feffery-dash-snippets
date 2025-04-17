@@ -275,6 +275,12 @@ raw_snippets = [
                 'description': 'Quickly generate code template for blank app',
                 'body_path': r'raw_snippets\py\templates\blank.py',
             },
+            {
+                'title': 'fact_jupyter',
+                'prefix': 'template:fact_jupyter',
+                'description': 'Quickly generate code template for fact app which can be run in jupyter notebook',
+                'body_path': r'raw_snippets\py\templates\fact_jupyter.py',
+            },
         ],
     },
 ]
