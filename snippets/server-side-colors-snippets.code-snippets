@@ -5,5 +5,12 @@
       "['#DEEBF7', '#9ECAE1', '#3182BD']"
     ],
     "description": "Quickly generate blues_3 colors"
+  },
+  "blues_4 colors": {
+    "prefix": "color:blues_4",
+    "body": [
+      "['#EFF3FF', '#BDD7E7', '#6BAED6', '#2171B5']"
+    ],
+    "description": "Quickly generate blues_4 colors"
   }
 }
