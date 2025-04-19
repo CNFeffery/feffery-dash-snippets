@@ -19,5 +19,12 @@
       "['#EFF3FF', '#BDD7E7', '#6BAED6', '#3182BD', '#08519C']"
     ],
     "description": "Quickly generate blues_5 colors"
+  },
+  "blues_6 colors": {
+    "prefix": "color:blues_6",
+    "body": [
+      "['#EFF3FF', '#C6DBEF', '#9ECAE1', '#6BAED6', '#3182BD', '#08519C']"
+    ],
+    "description": "Quickly generate blues_6 colors"
   }
 }
