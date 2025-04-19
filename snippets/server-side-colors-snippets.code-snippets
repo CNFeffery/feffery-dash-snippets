@@ -124,5 +124,12 @@
       "[\n    '#EDF8E9',\n    '#C7E9C0',\n    '#A1D99B',\n    '#74C476',\n    '#31A354',\n    '#006D2C',\n]"
     ],
     "description": "Quickly generate greens_6 colors"
+  },
+  "greens_7 colors": {
+    "prefix": "color:greens_7",
+    "body": [
+      "[\n    '#EDF8E9',\n    '#C7E9C0',\n    '#A1D99B',\n    '#74C476',\n    '#41AB5D',\n    '#238B45',\n    '#005A32',\n]"
+    ],
+    "description": "Quickly generate greens_7 colors"
   }
 }
