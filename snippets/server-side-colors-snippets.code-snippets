@@ -96,5 +96,12 @@
       "[\n    '#08306B',\n    '#08519C',\n    '#2171B5',\n    '#4292C6',\n    '#6BAED6',\n    '#9ECAE1',\n    '#C6DBEF',\n    '#DEEBF7',\n    '#F7FBFF',\n]"
     ],
     "description": "Quickly generate blues_9_r colors"
+  },
+  "greens_3 colors": {
+    "prefix": "color:greens_3",
+    "body": [
+      "['#E5F5E0', '#A1D99B', '#31A354']"
+    ],
+    "description": "Quickly generate greens_3 colors"
   }
 }
