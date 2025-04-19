@@ -138,5 +138,12 @@
       "[\n    '#F7FCF5',\n    '#E5F5E0',\n    '#C7E9C0',\n    '#A1D99B',\n    '#74C476',\n    '#41AB5D',\n    '#238B45',\n    '#005A32',\n]"
     ],
     "description": "Quickly generate greens_8 colors"
+  },
+  "greens_9 colors": {
+    "prefix": "color:greens_9",
+    "body": [
+      "[\n    '#F7FCF5',\n    '#E5F5E0',\n    '#C7E9C0',\n    '#A1D99B',\n    '#74C476',\n    '#41AB5D',\n    '#238B45',\n    '#006D2C',\n    '#00441B',\n]"
+    ],
+    "description": "Quickly generate greens_9 colors"
   }
 }
