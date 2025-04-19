@@ -47,5 +47,12 @@
       "[\n    '#F7FBFF',\n    '#DEEBF7',\n    '#C6DBEF',\n    '#9ECAE1',\n    '#6BAED6',\n    '#4292C6',\n    '#2171B5',\n    '#08519C',\n    '#08306B',\n]"
     ],
     "description": "Quickly generate blues_9 colors"
+  },
+  "blues_3_r colors": {
+    "prefix": "color:blues_3_r",
+    "body": [
+      "['#3182BD', '#9ECAE1', '#DEEBF7']"
+    ],
+    "description": "Quickly generate blues_3_r colors"
   }
 }
