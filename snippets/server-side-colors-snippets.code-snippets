@@ -82,5 +82,12 @@
       "[\n    '#084594',\n    '#2171B5',\n    '#4292C6',\n    '#6BAED6',\n    '#9ECAE1',\n    '#C6DBEF',\n    '#EFF3FF',\n]"
     ],
     "description": "Quickly generate blues_7_r colors"
+  },
+  "blues_8_r colors": {
+    "prefix": "color:blues_8_r",
+    "body": [
+      "[\n    '#084594',\n    '#2171B5',\n    '#4292C6',\n    '#6BAED6',\n    '#9ECAE1',\n    '#C6DBEF',\n    '#DEEBF7',\n    '#F7FBFF',\n]"
+    ],
+    "description": "Quickly generate blues_8_r colors"
   }
 }
