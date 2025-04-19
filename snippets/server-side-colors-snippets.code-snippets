@@ -110,5 +110,12 @@
       "['#EDF8E9', '#BAE4B3', '#74C476', '#238B45']"
     ],
     "description": "Quickly generate greens_4 colors"
+  },
+  "greens_5 colors": {
+    "prefix": "color:greens_5",
+    "body": [
+      "['#EDF8E9', '#BAE4B3', '#74C476', '#31A354', '#006D2C']"
+    ],
+    "description": "Quickly generate greens_5 colors"
   }
 }
