@@ -23,7 +23,7 @@
   "blues_6 colors": {
     "prefix": "color:blues_6",
     "body": [
-      "['#EFF3FF', '#C6DBEF', '#9ECAE1', '#6BAED6', '#3182BD', '#08519C']"
+      "[\n    '#EFF3FF',\n    '#C6DBEF',\n    '#9ECAE1',\n    '#6BAED6',\n    '#3182BD',\n    '#08519C',\n]"
     ],
     "description": "Quickly generate blues_6 colors"
   },
@@ -68,5 +68,12 @@
       "['#08519C', '#3182BD', '#6BAED6', '#BDD7E7', '#EFF3FF']"
     ],
     "description": "Quickly generate blues_5_r colors"
+  },
+  "blues_6_r colors": {
+    "prefix": "color:blues_6_r",
+    "body": [
+      "[\n    '#08519C',\n    '#3182BD',\n    '#6BAED6',\n    '#9ECAE1',\n    '#C6DBEF',\n    '#EFF3FF',\n]"
+    ],
+    "description": "Quickly generate blues_6_r colors"
   }
 }
