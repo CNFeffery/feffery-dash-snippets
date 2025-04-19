@@ -61,5 +61,12 @@
       "['#2171B5', '#6BAED6', '#BDD7E7', '#EFF3FF']"
     ],
     "description": "Quickly generate blues_4_r colors"
+  },
+  "blues_5_r colors": {
+    "prefix": "color:blues_5_r",
+    "body": [
+      "['#08519C', '#3182BD', '#6BAED6', '#BDD7E7', '#EFF3FF']"
+    ],
+    "description": "Quickly generate blues_5_r colors"
   }
 }
