@@ -323,6 +323,12 @@ raw_snippets = [
                 'description': 'Quickly generate blues_8 colors',
                 'body_path': r'raw_snippets\py\colors\blues_8.py',
             },
+            {
+                'title': 'blues_9 colors',
+                'prefix': 'color:blues_9',
+                'description': 'Quickly generate blues_9 colors',
+                'body_path': r'raw_snippets\py\colors\blues_9.py',
+            },
         ],
     },
 ]
