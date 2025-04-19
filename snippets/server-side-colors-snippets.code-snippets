@@ -1,0 +1,9 @@
+{
+  "blues_3 colors": {
+    "prefix": "color:blues_3",
+    "body": [
+      "['#DEEBF7', '#9ECAE1', '#3182BD']"
+    ],
+    "description": "Quickly generate blues_3 colors"
+  }
+}

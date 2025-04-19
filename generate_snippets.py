@@ -283,6 +283,18 @@ raw_snippets = [
             },
         ],
     },
+    {
+        'name': 'server-side-colors-snippets',
+        'language': 'python',
+        'items': [
+            {
+                'title': 'blues_3 colors',
+                'prefix': 'color:blues_3',
+                'description': 'Quickly generate blues_3 colors',
+                'body_path': r'raw_snippets\py\colors\blues_3.py',
+            },
+        ],
+    },
 ]
 
 
