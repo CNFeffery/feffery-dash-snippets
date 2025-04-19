@@ -33,5 +33,12 @@
       "['#EFF3FF', '#C6DBEF', '#9ECAE1', '#6BAED6', '#4292C6', '#2171B5', '#084594']"
     ],
     "description": "Quickly generate blues_7 colors"
+  },
+  "blues_8 colors": {
+    "prefix": "color:blues_8",
+    "body": [
+      "[\n    '#F7FBFF',\n    '#DEEBF7',\n    '#C6DBEF',\n    '#9ECAE1',\n    '#6BAED6',\n    '#4292C6',\n    '#2171B5',\n    '#084594',\n]"
+    ],
+    "description": "Quickly generate blues_8 colors"
   }
 }
