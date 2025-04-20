@@ -292,5 +292,103 @@
       "[\n    '#000000',\n    '#252525',\n    '#525252',\n    '#737373',\n    '#969696',\n    '#BDBDBD',\n    '#D9D9D9',\n    '#F0F0F0',\n    '#FFFFFF',\n]"
     ],
     "description": "Quickly generate greys_9_r colors"
+  },
+  "oranges_3 colors": {
+    "prefix": "colors:oranges_3",
+    "body": [
+      "['#FEE6CE', '#FDAE6B', '#E6550D']"
+    ],
+    "description": "Quickly generate oranges_3 colors"
+  },
+  "oranges_4 colors": {
+    "prefix": "colors:oranges_4",
+    "body": [
+      "['#FEEDDE', '#FDBE85', '#FD8D3C', '#D94701']"
+    ],
+    "description": "Quickly generate oranges_4 colors"
+  },
+  "oranges_5 colors": {
+    "prefix": "colors:oranges_5",
+    "body": [
+      "['#FEEDDE', '#FDBE85', '#FD8D3C', '#E6550D', '#A63603']"
+    ],
+    "description": "Quickly generate oranges_5 colors"
+  },
+  "oranges_6 colors": {
+    "prefix": "colors:oranges_6",
+    "body": [
+      "[\n    '#FEEDDE',\n    '#FDD0A2',\n    '#FDAE6B',\n    '#FD8D3C',\n    '#E6550D',\n    '#A63603',\n]"
+    ],
+    "description": "Quickly generate oranges_6 colors"
+  },
+  "oranges_7 colors": {
+    "prefix": "colors:oranges_7",
+    "body": [
+      "[\n    '#FEEDDE',\n    '#FDD0A2',\n    '#FDAE6B',\n    '#FD8D3C',\n    '#F16913',\n    '#D94801',\n    '#8C2D04',\n]"
+    ],
+    "description": "Quickly generate oranges_7 colors"
+  },
+  "oranges_8 colors": {
+    "prefix": "colors:oranges_8",
+    "body": [
+      "[\n    '#FFF5EB',\n    '#FEE6CE',\n    '#FDD0A2',\n    '#FDAE6B',\n    '#FD8D3C',\n    '#F16913',\n    '#D94801',\n    '#8C2D04',\n]"
+    ],
+    "description": "Quickly generate oranges_8 colors"
+  },
+  "oranges_9 colors": {
+    "prefix": "colors:oranges_9",
+    "body": [
+      "[\n    '#FFF5EB',\n    '#FEE6CE',\n    '#FDD0A2',\n    '#FDAE6B',\n    '#FD8D3C',\n    '#F16913',\n    '#D94801',\n    '#A63603',\n    '#7F2704',\n]"
+    ],
+    "description": "Quickly generate oranges_9 colors"
+  },
+  "oranges_3_r colors": {
+    "prefix": "colors:oranges_3_r",
+    "body": [
+      "['#E6550D', '#FDAE6B', '#FEE6CE']"
+    ],
+    "description": "Quickly generate oranges_3_r colors"
+  },
+  "oranges_4_r colors": {
+    "prefix": "colors:oranges_4_r",
+    "body": [
+      "['#D94701', '#FD8D3C', '#FDBE85', '#FEEDDE']"
+    ],
+    "description": "Quickly generate oranges_4_r colors"
+  },
+  "oranges_5_r colors": {
+    "prefix": "colors:oranges_5_r",
+    "body": [
+      "['#A63603', '#E6550D', '#FD8D3C', '#FDBE85', '#FEEDDE']"
+    ],
+    "description": "Quickly generate oranges_5_r colors"
+  },
+  "oranges_6_r colors": {
+    "prefix": "colors:oranges_6_r",
+    "body": [
+      "[\n    '#A63603',\n    '#E6550D',\n    '#FD8D3C',\n    '#FDAE6B',\n    '#FDD0A2',\n    '#FEEDDE',\n]"
+    ],
+    "description": "Quickly generate oranges_6_r colors"
+  },
+  "oranges_7_r colors": {
+    "prefix": "colors:oranges_7_r",
+    "body": [
+      "[\n    '#8C2D04',\n    '#D94801',\n    '#F16913',\n    '#FD8D3C',\n    '#FDAE6B',\n    '#FDD0A2',\n    '#FEEDDE',\n]"
+    ],
+    "description": "Quickly generate oranges_7_r colors"
+  },
+  "oranges_8_r colors": {
+    "prefix": "colors:oranges_8_r",
+    "body": [
+      "[\n    '#8C2D04',\n    '#D94801',\n    '#F16913',\n    '#FD8D3C',\n    '#FDAE6B',\n    '#FDD0A2',\n    '#FEE6CE',\n    '#FFF5EB',\n]"
+    ],
+    "description": "Quickly generate oranges_8_r colors"
+  },
+  "oranges_9_r colors": {
+    "prefix": "colors:oranges_9_r",
+    "body": [
+      "[\n    '#7F2704',\n    '#A63603',\n    '#D94801',\n    '#F16913',\n    '#FD8D3C',\n    '#FDAE6B',\n    '#FDD0A2',\n    '#FEE6CE',\n    '#FFF5EB',\n]"
+    ],
+    "description": "Quickly generate oranges_9_r colors"
   }
 }
