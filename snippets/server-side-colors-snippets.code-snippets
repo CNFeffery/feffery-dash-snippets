@@ -222,5 +222,12 @@
       "[\n    '#F7F7F7',\n    '#D9D9D9',\n    '#BDBDBD',\n    '#969696',\n    '#636363',\n    '#252525',\n]"
     ],
     "description": "Quickly generate greys_6 colors"
+  },
+  "greys_7 colors": {
+    "prefix": "colors:greys_7",
+    "body": [
+      "[\n    '#F7F7F7',\n    '#D9D9D9',\n    '#BDBDBD',\n    '#969696',\n    '#737373',\n    '#525252',\n    '#252525',\n]"
+    ],
+    "description": "Quickly generate greys_7 colors"
   }
 }
