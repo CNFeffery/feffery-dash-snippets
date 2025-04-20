@@ -152,5 +152,12 @@
       "['#31A354', '#A1D99B', '#E5F5E0']"
     ],
     "description": "Quickly generate greens_3_r colors"
+  },
+  "greens_4_r colors": {
+    "prefix": "colors:greens_4_r",
+    "body": [
+      "['#238B45', '#74C476', '#BAE4B3', '#EDF8E9']"
+    ],
+    "description": "Quickly generate greens_4_r colors"
   }
 }
