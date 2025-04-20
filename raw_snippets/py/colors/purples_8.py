@@ -1,0 +1,10 @@
+[
+    '#FCFBFD',
+    '#EFEDF5',
+    '#DADAEB',
+    '#BCBDDC',
+    '#9E9AC8',
+    '#807DBA',
+    '#6A51A3',
+    '#4A1486',
+]

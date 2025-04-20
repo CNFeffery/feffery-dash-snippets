@@ -390,5 +390,103 @@
       "[\n    '#7F2704',\n    '#A63603',\n    '#D94801',\n    '#F16913',\n    '#FD8D3C',\n    '#FDAE6B',\n    '#FDD0A2',\n    '#FEE6CE',\n    '#FFF5EB',\n]"
     ],
     "description": "Quickly generate oranges_9_r colors"
+  },
+  "purples_3 colors": {
+    "prefix": "colors:purples_3",
+    "body": [
+      "['#EFEDF5', '#BCBDDC', '#756BB1']"
+    ],
+    "description": "Quickly generate purples_3 colors"
+  },
+  "purples_4 colors": {
+    "prefix": "colors:purples_4",
+    "body": [
+      "['#F2F0F7', '#CBC9E2', '#9E9AC8', '#6A51A3']"
+    ],
+    "description": "Quickly generate purples_4 colors"
+  },
+  "purples_5 colors": {
+    "prefix": "colors:purples_5",
+    "body": [
+      "['#F2F0F7', '#CBC9E2', '#9E9AC8', '#756BB1', '#54278F']"
+    ],
+    "description": "Quickly generate purples_5 colors"
+  },
+  "purples_6 colors": {
+    "prefix": "colors:purples_6",
+    "body": [
+      "[\n    '#F2F0F7',\n    '#DADAEB',\n    '#BCBDDC',\n    '#9E9AC8',\n    '#756BB1',\n    '#54278F',\n]"
+    ],
+    "description": "Quickly generate purples_6 colors"
+  },
+  "purples_7 colors": {
+    "prefix": "colors:purples_7",
+    "body": [
+      "[\n    '#F2F0F7',\n    '#DADAEB',\n    '#BCBDDC',\n    '#9E9AC8',\n    '#807DBA',\n    '#6A51A3',\n    '#4A1486',\n]"
+    ],
+    "description": "Quickly generate purples_7 colors"
+  },
+  "purples_8 colors": {
+    "prefix": "colors:purples_8",
+    "body": [
+      "[\n    '#FCFBFD',\n    '#EFEDF5',\n    '#DADAEB',\n    '#BCBDDC',\n    '#9E9AC8',\n    '#807DBA',\n    '#6A51A3',\n    '#4A1486',\n]"
+    ],
+    "description": "Quickly generate purples_8 colors"
+  },
+  "purples_9 colors": {
+    "prefix": "colors:purples_9",
+    "body": [
+      "[\n    '#FCFBFD',\n    '#EFEDF5',\n    '#DADAEB',\n    '#BCBDDC',\n    '#9E9AC8',\n    '#807DBA',\n    '#6A51A3',\n    '#54278F',\n    '#3F007D',\n]"
+    ],
+    "description": "Quickly generate purples_9 colors"
+  },
+  "purples_3_r colors": {
+    "prefix": "colors:purples_3_r",
+    "body": [
+      "['#756BB1', '#BCBDDC', '#EFEDF5']"
+    ],
+    "description": "Quickly generate purples_3_r colors"
+  },
+  "purples_4_r colors": {
+    "prefix": "colors:purples_4_r",
+    "body": [
+      "['#6A51A3', '#9E9AC8', '#CBC9E2', '#F2F0F7']"
+    ],
+    "description": "Quickly generate purples_4_r colors"
+  },
+  "purples_5_r colors": {
+    "prefix": "colors:purples_5_r",
+    "body": [
+      "['#54278F', '#756BB1', '#9E9AC8', '#CBC9E2', '#F2F0F7']"
+    ],
+    "description": "Quickly generate purples_5_r colors"
+  },
+  "purples_6_r colors": {
+    "prefix": "colors:purples_6_r",
+    "body": [
+      "[\n    '#54278F',\n    '#756BB1',\n    '#9E9AC8',\n    '#BCBDDC',\n    '#DADAEB',\n    '#F2F0F7',\n]"
+    ],
+    "description": "Quickly generate purples_6_r colors"
+  },
+  "purples_7_r colors": {
+    "prefix": "colors:purples_7_r",
+    "body": [
+      "[\n    '#4A1486',\n    '#6A51A3',\n    '#807DBA',\n    '#9E9AC8',\n    '#BCBDDC',\n    '#DADAEB',\n    '#F2F0F7',\n]"
+    ],
+    "description": "Quickly generate purples_7_r colors"
+  },
+  "purples_8_r colors": {
+    "prefix": "colors:purples_8_r",
+    "body": [
+      "[\n    '#4A1486',\n    '#6A51A3',\n    '#807DBA',\n    '#9E9AC8',\n    '#BCBDDC',\n    '#DADAEB',\n    '#EFEDF5',\n    '#FCFBFD',\n]"
+    ],
+    "description": "Quickly generate purples_8_r colors"
+  },
+  "purples_9_r colors": {
+    "prefix": "colors:purples_9_r",
+    "body": [
+      "[\n    '#3F007D',\n    '#54278F',\n    '#6A51A3',\n    '#807DBA',\n    '#9E9AC8',\n    '#BCBDDC',\n    '#DADAEB',\n    '#EFEDF5',\n    '#FCFBFD',\n]"
+    ],
+    "description": "Quickly generate purples_9_r colors"
   }
 }
