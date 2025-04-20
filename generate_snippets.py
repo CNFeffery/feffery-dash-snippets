@@ -461,6 +461,12 @@ raw_snippets = [
                 'description': 'Quickly generate greys_3 colors',
                 'body_path': r'raw_snippets\py\colors\greys_3.py',
             },
+            {
+                'title': 'greys_4 colors',
+                'prefix': 'colors:greys_4',
+                'description': 'Quickly generate greys_4 colors',
+                'body_path': r'raw_snippets\py\colors\greys_4.py',
+            },
         ],
     },
 ]
