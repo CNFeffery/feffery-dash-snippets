@@ -236,5 +236,12 @@
       "[\n    '#FFFFFF',\n    '#F0F0F0',\n    '#D9D9D9',\n    '#BDBDBD',\n    '#969696',\n    '#737373',\n    '#525252',\n    '#252525',\n]"
     ],
     "description": "Quickly generate greys_8 colors"
+  },
+  "greys_9 colors": {
+    "prefix": "colors:greys_9",
+    "body": [
+      "[\n    '#FFFFFF',\n    '#F0F0F0',\n    '#D9D9D9',\n    '#BDBDBD',\n    '#969696',\n    '#737373',\n    '#525252',\n    '#252525',\n    '#000000',\n]"
+    ],
+    "description": "Quickly generate greys_9 colors"
   }
 }
