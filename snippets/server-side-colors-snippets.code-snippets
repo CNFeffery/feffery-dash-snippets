@@ -173,5 +173,12 @@
       "[\n    '#006D2C',\n    '#31A354',\n    '#74C476',\n    '#A1D99B',\n    '#C7E9C0',\n    '#EDF8E9',\n]"
     ],
     "description": "Quickly generate greens_6_r colors"
+  },
+  "greens_7_r colors": {
+    "prefix": "colors:greens_7_r",
+    "body": [
+      "[\n    '#005A32',\n    '#238B45',\n    '#41AB5D',\n    '#74C476',\n    '#A1D99B',\n    '#C7E9C0',\n    '#EDF8E9',\n]"
+    ],
+    "description": "Quickly generate greens_7_r colors"
   }
 }
