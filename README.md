@@ -74,6 +74,176 @@
 
 - `template:fact-jupyter`：快捷生成`fact`在`jupyter`中使用的模板
 
+#### 1.1.7 常用配色方案快捷生成
+
+- `colors:blues_3`：快速生成`blues_3`颜色值数组
+
+- `colors:blues_4`：快速生成`blues_4`颜色值数组
+
+- `colors:blues_5`：快速生成`blues_5`颜色值数组
+
+- `colors:blues_6`：快速生成`blues_6`颜色值数组
+
+- `colors:blues_7`：快速生成`blues_7`颜色值数组
+
+- `colors:blues_8`：快速生成`blues_8`颜色值数组
+
+- `colors:blues_9`：快速生成`blues_9`颜色值数组
+
+- `colors:blues_3_r`：快速生成`blues_3_r`颜色值数组
+
+- `colors:blues_4_r`：快速生成`blues_4_r`颜色值数组
+
+- `colors:blues_5_r`：快速生成`blues_5_r`颜色值数组
+
+- `colors:blues_6_r`：快速生成`blues_6_r`颜色值数组
+
+- `colors:blues_7_r`：快速生成`blues_7_r`颜色值数组
+
+- `colors:blues_8_r`：快速生成`blues_8_r`颜色值数组
+
+- `colors:blues_9_r`：快速生成`blues_9_r`颜色值数组
+
+- `colors:greens_3`：快速生成`greens_3`颜色值数组
+
+- `colors:greens_4`：快速生成`greens_4`颜色值数组
+
+- `colors:greens_5`：快速生成`greens_5`颜色值数组
+
+- `colors:greens_6`：快速生成`greens_6`颜色值数组
+
+- `colors:greens_7`：快速生成`greens_7`颜色值数组
+
+- `colors:greens_8`：快速生成`greens_8`颜色值数组
+
+- `colors:greens_9`：快速生成`greens_9`颜色值数组
+
+- `colors:greens_3_r`：快速生成`greens_3_r`颜色值数组
+
+- `colors:greens_4_r`：快速生成`greens_4_r`颜色值数组
+
+- `colors:greens_5_r`：快速生成`greens_5_r`颜色值数组
+
+- `colors:greens_6_r`：快速生成`greens_6_r`颜色值数组
+
+- `colors:greens_7_r`：快速生成`greens_7_r`颜色值数组
+
+- `colors:greens_8_r`：快速生成`greens_8_r`颜色值数组
+
+- `colors:greens_9_r`：快速生成`greens_9_r`颜色值数组
+
+- `colors:greys_3`：快速生成`greys_3`颜色值数组
+
+- `colors:greys_4`：快速生成`greys_4`颜色值数组
+
+- `colors:greys_5`：快速生成`greys_5`颜色值数组
+
+- `colors:greys_6`：快速生成`greys_6`颜色值数组
+
+- `colors:greys_7`：快速生成`greys_7`颜色值数组
+
+- `colors:greys_8`：快速生成`greys_8`颜色值数组
+
+- `colors:greys_9`：快速生成`greys_9`颜色值数组
+
+- `colors:greys_3_r`：快速生成`greys_3_r`颜色值数组
+
+- `colors:greys_4_r`：快速生成`greys_4_r`颜色值数组
+
+- `colors:greys_5_r`：快速生成`greys_5_r`颜色值数组
+
+- `colors:greys_6_r`：快速生成`greys_6_r`颜色值数组
+
+- `colors:greys_7_r`：快速生成`greys_7_r`颜色值数组
+
+- `colors:greys_8_r`：快速生成`greys_8_r`颜色值数组
+
+- `colors:greys_9_r`：快速生成`greys_9_r`颜色值数组
+
+- `colors:oranges_3`：快速生成`oranges_3`颜色值数组
+
+- `colors:oranges_4`：快速生成`oranges_4`颜色值数组
+
+- `colors:oranges_5`：快速生成`oranges_5`颜色值数组
+
+- `colors:oranges_6`：快速生成`oranges_6`颜色值数组
+
+- `colors:oranges_7`：快速生成`oranges_7`颜色值数组
+
+- `colors:oranges_8`：快速生成`oranges_8`颜色值数组
+
+- `colors:oranges_9`：快速生成`oranges_9`颜色值数组
+
+- `colors:oranges_3_r`：快速生成`oranges_3_r`颜色值数组
+
+- `colors:oranges_4_r`：快速生成`oranges_4_r`颜色值数组
+
+- `colors:oranges_5_r`：快速生成`oranges_5_r`颜色值数组
+
+- `colors:oranges_6_r`：快速生成`oranges_6_r`颜色值数组
+
+- `colors:oranges_7_r`：快速生成`oranges_7_r`颜色值数组
+
+- `colors:oranges_8_r`：快速生成`oranges_8_r`颜色值数组
+
+- `colors:oranges_9_r`：快速生成`oranges_9_r`颜色值数组
+
+- `colors:purples_3`：快速生成`purples_3`颜色值数组
+
+- `colors:purples_4`：快速生成`purples_4`颜色值数组
+
+- `colors:purples_5`：快速生成`purples_5`颜色值数组
+
+- `colors:purples_6`：快速生成`purples_6`颜色值数组
+
+- `colors:purples_7`：快速生成`purples_7`颜色值数组
+
+- `colors:purples_8`：快速生成`purples_8`颜色值数组
+
+- `colors:purples_9`：快速生成`purples_9`颜色值数组
+
+- `colors:purples_3_r`：快速生成`purples_3_r`颜色值数组
+
+- `colors:purples_4_r`：快速生成`purples_4_r`颜色值数组
+
+- `colors:purples_5_r`：快速生成`purples_5_r`颜色值数组
+
+- `colors:purples_6_r`：快速生成`purples_6_r`颜色值数组
+
+- `colors:purples_7_r`：快速生成`purples_7_r`颜色值数组
+
+- `colors:purples_8_r`：快速生成`purples_8_r`颜色值数组
+
+- `colors:purples_9_r`：快速生成`purples_9_r`颜色值数组
+
+- `colors:reds_3`：快速生成`reds_3`颜色值数组
+
+- `colors:reds_4`：快速生成`reds_4`颜色值数组
+
+- `colors:reds_5`：快速生成`reds_5`颜色值数组
+
+- `colors:reds_6`：快速生成`reds_6`颜色值数组
+
+- `colors:reds_7`：快速生成`reds_7`颜色值数组
+
+- `colors:reds_8`：快速生成`reds_8`颜色值数组
+
+- `colors:reds_9`：快速生成`reds_9`颜色值数组
+
+- `colors:reds_3_r`：快速生成`reds_3_r`颜色值数组
+
+- `colors:reds_4_r`：快速生成`reds_4_r`颜色值数组
+
+- `colors:reds_5_r`：快速生成`reds_5_r`颜色值数组
+
+- `colors:reds_6_r`：快速生成`reds_6_r`颜色值数组
+
+- `colors:reds_7_r`：快速生成`reds_7_r`颜色值数组
+
+- `colors:reds_8_r`：快速生成`reds_8_r`颜色值数组
+
+- `colors:reds_9_r`：快速生成`reds_9_r`颜色值数组
+
 ### 1.2 快捷 JavaScript 代码片段
 
 #### 1.2.1 回调相关快捷逻辑初始化

@@ -74,6 +74,176 @@
 
 - `template:fact-jupyter`：Quickly generate `fact` template which is run in `jupyter`
 
+#### 1.1.7 Quick Generation of Common Color Schemes
+
+- `colors:blues_3`: Quickly generate the `blues_3` color value array
+
+- `colors:blues_4`: Quickly generate the `blues_4` color value array
+
+- `colors:blues_5`: Quickly generate the `blues_5` color value array
+
+- `colors:blues_6`: Quickly generate the `blues_6` color value array
+
+- `colors:blues_7`: Quickly generate the `blues_7` color value array
+
+- `colors:blues_8`: Quickly generate the `blues_8` color value array
+
+- `colors:blues_9`: Quickly generate the `blues_9` color value array
+
+- `colors:blues_3_r`: Quickly generate the `blues_3_r` color value array
+
+- `colors:blues_4_r`: Quickly generate the `blues_4_r` color value array
+
+- `colors:blues_5_r`: Quickly generate the `blues_5_r` color value array
+
+- `colors:blues_6_r`: Quickly generate the `blues_6_r` color value array
+
+- `colors:blues_7_r`: Quickly generate the `blues_7_r` color value array
+
+- `colors:blues_8_r`: Quickly generate the `blues_8_r` color value array
+
+- `colors:blues_9_r`: Quickly generate the `blues_9_r` color value array
+
+- `colors:greens_3`: Quickly generate the `greens_3` color value array
+
+- `colors:greens_4`: Quickly generate the `greens_4` color value array
+
+- `colors:greens_5`: Quickly generate the `greens_5` color value array
+
+- `colors:greens_6`: Quickly generate the `greens_6` color value array
+
+- `colors:greens_7`: Quickly generate the `greens_7` color value array
+
+- `colors:greens_8`: Quickly generate the `greens_8` color value array
+
+- `colors:greens_9`: Quickly generate the `greens_9` color value array
+
+- `colors:greens_3_r`: Quickly generate the `greens_3_r` color value array
+
+- `colors:greens_4_r`: Quickly generate the `greens_4_r` color value array
+
+- `colors:greens_5_r`: Quickly generate the `greens_5_r` color value array
+
+- `colors:greens_6_r`: Quickly generate the `greens_6_r` color value array
+
+- `colors:greens_7_r`: Quickly generate the `greens_7_r` color value array
+
+- `colors:greens_8_r`: Quickly generate the `greens_8_r` color value array
+
+- `colors:greens_9_r`: Quickly generate the `greens_9_r` color value array
+
+- `colors:greys_3`: Quickly generate the `greys_3` color value array
+
+- `colors:greys_4`: Quickly generate the `greys_4` color value array
+
+- `colors:greys_5`: Quickly generate the `greys_5` color value array
+
+- `colors:greys_6`: Quickly generate the `greys_6` color value array
+
+- `colors:greys_7`: Quickly generate the `greys_7` color value array
+
+- `colors:greys_8`: Quickly generate the `greys_8` color value array
+
+- `colors:greys_9`: Quickly generate the `greys_9` color value array
+
+- `colors:greys_3_r`: Quickly generate the `greys_3_r` color value array
+
+- `colors:greys_4_r`: Quickly generate the `greys_4_r` color value array
+
+- `colors:greys_5_r`: Quickly generate the `greys_5_r` color value array
+
+- `colors:greys_6_r`: Quickly generate the `greys_6_r` color value array
+
+- `colors:greys_7_r`: Quickly generate the `greys_7_r` color value array
+
+- `colors:greys_8_r`: Quickly generate the `greys_8_r` color value array
+
+- `colors:greys_9_r`: Quickly generate the `greys_9_r` color value array
+
+- `colors:oranges_3`: Quickly generate the `oranges_3` color value array
+
+- `colors:oranges_4`: Quickly generate the `oranges_4` color value array
+
+- `colors:oranges_5`: Quickly generate the `oranges_5` color value array
+
+- `colors:oranges_6`: Quickly generate the `oranges_6` color value array
+
+- `colors:oranges_7`: Quickly generate the `oranges_7` color value array
+
+- `colors:oranges_8`: Quickly generate the `oranges_8` color value array
+
+- `colors:oranges_9`: Quickly generate the `oranges_9` color value array
+
+- `colors:oranges_3_r`: Quickly generate the `oranges_3_r` color value array
+
+- `colors:oranges_4_r`: Quickly generate the `oranges_4_r` color value array
+
+- `colors:oranges_5_r`: Quickly generate the `oranges_5_r` color value array
+
+- `colors:oranges_6_r`: Quickly generate the `oranges_6_r` color value array
+
+- `colors:oranges_7_r`: Quickly generate the `oranges_7_r` color value array
+
+- `colors:oranges_8_r`: Quickly generate the `oranges_8_r` color value array
+
+- `colors:oranges_9_r`: Quickly generate the `oranges_9_r` color value array
+
+- `colors:purples_3`: Quickly generate the `purples_3` color value array
+
+- `colors:purples_4`: Quickly generate the `purples_4` color value array
+
+- `colors:purples_5`: Quickly generate the `purples_5` color value array
+
+- `colors:purples_6`: Quickly generate the `purples_6` color value array
+
+- `colors:purples_7`: Quickly generate the `purples_7` color value array
+
+- `colors:purples_8`: Quickly generate the `purples_8` color value array
+
+- `colors:purples_9`: Quickly generate the `purples_9` color value array
+
+- `colors:purples_3_r`: Quickly generate the `purples_3_r` color value array
+
+- `colors:purples_4_r`: Quickly generate the `purples_4_r` color value array
+
+- `colors:purples_5_r`: Quickly generate the `purples_5_r` color value array
+
+- `colors:purples_6_r`: Quickly generate the `purples_6_r` color value array
+
+- `colors:purples_7_r`: Quickly generate the `purples_7_r` color value array
+
+- `colors:purples_8_r`: Quickly generate the `purples_8_r` color value array
+
+- `colors:purples_9_r`: Quickly generate the `purples_9_r` color value array
+
+- `colors:reds_3`: Quickly generate the `reds_3` color value array
+
+- `colors:reds_4`: Quickly generate the `reds_4` color value array
+
+- `colors:reds_5`: Quickly generate the `reds_5` color value array
+
+- `colors:reds_6`: Quickly generate the `reds_6` color value array
+
+- `colors:reds_7`: Quickly generate the `reds_7` color value array
+
+- `colors:reds_8`: Quickly generate the `reds_8` color value array
+
+- `colors:reds_9`: Quickly generate the `reds_9` color value array
+
+- `colors:reds_3_r`: Quickly generate the `reds_3_r` color value array
+
+- `colors:reds_4_r`: Quickly generate the `reds_4_r` color value array
+
+- `colors:reds_5_r`: Quickly generate the `reds_5_r` color value array
+
+- `colors:reds_6_r`: Quickly generate the `reds_6_r` color value array
+
+- `colors:reds_7_r`: Quickly generate the `reds_7_r` color value array
+
+- `colors:reds_8_r`: Quickly generate the `reds_8_r` color value array
+
+- `colors:reds_9_r`: Quickly generate the `reds_9_r` color value array
+
 ### 1.2 Quick JavaScript Code Snippets
 
 #### 1.2.1 Callback-Related Quick Logic Initialization
