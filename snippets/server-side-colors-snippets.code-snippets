@@ -488,5 +488,103 @@
       "[\n    '#3F007D',\n    '#54278F',\n    '#6A51A3',\n    '#807DBA',\n    '#9E9AC8',\n    '#BCBDDC',\n    '#DADAEB',\n    '#EFEDF5',\n    '#FCFBFD',\n]"
     ],
     "description": "Quickly generate purples_9_r colors"
+  },
+  "reds_3 colors": {
+    "prefix": "colors:reds_3",
+    "body": [
+      "['#FEE0D2', '#FC9272', '#DE2D26']"
+    ],
+    "description": "Quickly generate reds_3 colors"
+  },
+  "reds_4 colors": {
+    "prefix": "colors:reds_4",
+    "body": [
+      "['#FEE5D9', '#FCAE91', '#FB6A4A', '#CB181D']"
+    ],
+    "description": "Quickly generate reds_4 colors"
+  },
+  "reds_5 colors": {
+    "prefix": "colors:reds_5",
+    "body": [
+      "['#FEE5D9', '#FCAE91', '#FB6A4A', '#DE2D26', '#A50F15']"
+    ],
+    "description": "Quickly generate reds_5 colors"
+  },
+  "reds_6 colors": {
+    "prefix": "colors:reds_6",
+    "body": [
+      "[\n    '#FEE5D9',\n    '#FCBBA1',\n    '#FC9272',\n    '#FB6A4A',\n    '#DE2D26',\n    '#A50F15',\n]"
+    ],
+    "description": "Quickly generate reds_6 colors"
+  },
+  "reds_7 colors": {
+    "prefix": "colors:reds_7",
+    "body": [
+      "[\n    '#FEE5D9',\n    '#FCBBA1',\n    '#FC9272',\n    '#FB6A4A',\n    '#EF3B2C',\n    '#CB181D',\n    '#99000D',\n]"
+    ],
+    "description": "Quickly generate reds_7 colors"
+  },
+  "reds_8 colors": {
+    "prefix": "colors:reds_8",
+    "body": [
+      "[\n    '#FFF5F0',\n    '#FEE0D2',\n    '#FCBBA1',\n    '#FC9272',\n    '#FB6A4A',\n    '#EF3B2C',\n    '#CB181D',\n    '#99000D',\n]"
+    ],
+    "description": "Quickly generate reds_8 colors"
+  },
+  "reds_9 colors": {
+    "prefix": "colors:reds_9",
+    "body": [
+      "[\n    '#FFF5F0',\n    '#FEE0D2',\n    '#FCBBA1',\n    '#FC9272',\n    '#FB6A4A',\n    '#EF3B2C',\n    '#CB181D',\n    '#A50F15',\n    '#67000D',\n]"
+    ],
+    "description": "Quickly generate reds_9 colors"
+  },
+  "reds_3_r colors": {
+    "prefix": "colors:reds_3_r",
+    "body": [
+      "['#DE2D26', '#FC9272', '#FEE0D2']"
+    ],
+    "description": "Quickly generate reds_3_r colors"
+  },
+  "reds_4_r colors": {
+    "prefix": "colors:reds_4_r",
+    "body": [
+      "['#CB181D', '#FB6A4A', '#FCAE91', '#FEE5D9']"
+    ],
+    "description": "Quickly generate reds_4_r colors"
+  },
+  "reds_5_r colors": {
+    "prefix": "colors:reds_5_r",
+    "body": [
+      "['#A50F15', '#DE2D26', '#FB6A4A', '#FCAE91', '#FEE5D9']"
+    ],
+    "description": "Quickly generate reds_5_r colors"
+  },
+  "reds_6_r colors": {
+    "prefix": "colors:reds_6_r",
+    "body": [
+      "[\n    '#A50F15',\n    '#DE2D26',\n    '#FB6A4A',\n    '#FC9272',\n    '#FCBBA1',\n    '#FEE5D9',\n]"
+    ],
+    "description": "Quickly generate reds_6_r colors"
+  },
+  "reds_7_r colors": {
+    "prefix": "colors:reds_7_r",
+    "body": [
+      "[\n    '#99000D',\n    '#CB181D',\n    '#EF3B2C',\n    '#FB6A4A',\n    '#FC9272',\n    '#FCBBA1',\n    '#FEE5D9',\n]"
+    ],
+    "description": "Quickly generate reds_7_r colors"
+  },
+  "reds_8_r colors": {
+    "prefix": "colors:reds_8_r",
+    "body": [
+      "[\n    '#99000D',\n    '#CB181D',\n    '#EF3B2C',\n    '#FB6A4A',\n    '#FC9272',\n    '#FCBBA1',\n    '#FEE0D2',\n    '#FFF5F0',\n]"
+    ],
+    "description": "Quickly generate reds_8_r colors"
+  },
+  "reds_9_r colors": {
+    "prefix": "colors:reds_9_r",
+    "body": [
+      "[\n    '#67000D',\n    '#A50F15',\n    '#CB181D',\n    '#EF3B2C',\n    '#FB6A4A',\n    '#FC9272',\n    '#FCBBA1',\n    '#FEE0D2',\n    '#FFF5F0',\n]"
+    ],
+    "description": "Quickly generate reds_9_r colors"
   }
 }
