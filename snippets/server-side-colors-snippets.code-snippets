@@ -243,5 +243,54 @@
       "[\n    '#FFFFFF',\n    '#F0F0F0',\n    '#D9D9D9',\n    '#BDBDBD',\n    '#969696',\n    '#737373',\n    '#525252',\n    '#252525',\n    '#000000',\n]"
     ],
     "description": "Quickly generate greys_9 colors"
+  },
+  "greys_3_r colors": {
+    "prefix": "colors:greys_3_r",
+    "body": [
+      "['#636363', '#BDBDBD', '#F0F0F0']"
+    ],
+    "description": "Quickly generate greys_3_r colors"
+  },
+  "greys_4_r colors": {
+    "prefix": "colors:greys_4_r",
+    "body": [
+      "['#525252', '#969696', '#CCCCCC', '#F7F7F7']"
+    ],
+    "description": "Quickly generate greys_4_r colors"
+  },
+  "greys_5_r colors": {
+    "prefix": "colors:greys_5_r",
+    "body": [
+      "['#252525', '#636363', '#969696', '#CCCCCC', '#F7F7F7']"
+    ],
+    "description": "Quickly generate greys_5_r colors"
+  },
+  "greys_6_r colors": {
+    "prefix": "colors:greys_6_r",
+    "body": [
+      "[\n    '#252525',\n    '#636363',\n    '#969696',\n    '#BDBDBD',\n    '#D9D9D9',\n    '#F7F7F7',\n]"
+    ],
+    "description": "Quickly generate greys_6_r colors"
+  },
+  "greys_7_r colors": {
+    "prefix": "colors:greys_7_r",
+    "body": [
+      "[\n    '#252525',\n    '#525252',\n    '#737373',\n    '#969696',\n    '#BDBDBD',\n    '#D9D9D9',\n    '#F7F7F7',\n]"
+    ],
+    "description": "Quickly generate greys_7_r colors"
+  },
+  "greys_8_r colors": {
+    "prefix": "colors:greys_8_r",
+    "body": [
+      "[\n    '#252525',\n    '#525252',\n    '#737373',\n    '#969696',\n    '#BDBDBD',\n    '#D9D9D9',\n    '#F0F0F0',\n    '#FFFFFF',\n]"
+    ],
+    "description": "Quickly generate greys_8_r colors"
+  },
+  "greys_9_r colors": {
+    "prefix": "colors:greys_9_r",
+    "body": [
+      "[\n    '#000000',\n    '#252525',\n    '#525252',\n    '#737373',\n    '#969696',\n    '#BDBDBD',\n    '#D9D9D9',\n    '#F0F0F0',\n    '#FFFFFF',\n]"
+    ],
+    "description": "Quickly generate greys_9_r colors"
   }
 }

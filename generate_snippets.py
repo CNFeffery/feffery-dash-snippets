@@ -497,6 +497,48 @@ raw_snippets = [
                 'description': 'Quickly generate greys_9 colors',
                 'body_path': r'raw_snippets\py\colors\greys_9.py',
             },
+            {
+                'title': 'greys_3_r colors',
+                'prefix': 'colors:greys_3_r',
+                'description': 'Quickly generate greys_3_r colors',
+                'body_path': r'raw_snippets\py\colors\greys_3_r.py',
+            },
+            {
+                'title': 'greys_4_r colors',
+                'prefix': 'colors:greys_4_r',
+                'description': 'Quickly generate greys_4_r colors',
+                'body_path': r'raw_snippets\py\colors\greys_4_r.py',
+            },
+            {
+                'title': 'greys_5_r colors',
+                'prefix': 'colors:greys_5_r',
+                'description': 'Quickly generate greys_5_r colors',
+                'body_path': r'raw_snippets\py\colors\greys_5_r.py',
+            },
+            {
+                'title': 'greys_6_r colors',
+                'prefix': 'colors:greys_6_r',
+                'description': 'Quickly generate greys_6_r colors',
+                'body_path': r'raw_snippets\py\colors\greys_6_r.py',
+            },
+            {
+                'title': 'greys_7_r colors',
+                'prefix': 'colors:greys_7_r',
+                'description': 'Quickly generate greys_7_r colors',
+                'body_path': r'raw_snippets\py\colors\greys_7_r.py',
+            },
+            {
+                'title': 'greys_8_r colors',
+                'prefix': 'colors:greys_8_r',
+                'description': 'Quickly generate greys_8_r colors',
+                'body_path': r'raw_snippets\py\colors\greys_8_r.py',
+            },
+            {
+                'title': 'greys_9_r colors',
+                'prefix': 'colors:greys_9_r',
+                'description': 'Quickly generate greys_9_r colors',
+                'body_path': r'raw_snippets\py\colors\greys_9_r.py',
+            },
         ],
     },
 ]
