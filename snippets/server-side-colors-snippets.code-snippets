@@ -194,5 +194,12 @@
       "[\n    '#00441B',\n    '#006D2C',\n    '#238B45',\n    '#41AB5D',\n    '#74C476',\n    '#A1D99B',\n    '#C7E9C0',\n    '#E5F5E0',\n    '#F7FCF5',\n]"
     ],
     "description": "Quickly generate greens_9_r colors"
+  },
+  "greys_3 colors": {
+    "prefix": "colors:greys_3",
+    "body": [
+      "['#F0F0F0', '#BDBDBD', '#636363']"
+    ],
+    "description": "Quickly generate greys_3 colors"
   }
 }
