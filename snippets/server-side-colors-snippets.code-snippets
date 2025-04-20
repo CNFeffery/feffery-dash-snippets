@@ -180,5 +180,12 @@
       "[\n    '#005A32',\n    '#238B45',\n    '#41AB5D',\n    '#74C476',\n    '#A1D99B',\n    '#C7E9C0',\n    '#EDF8E9',\n]"
     ],
     "description": "Quickly generate greens_7_r colors"
+  },
+  "greens_8_r colors": {
+    "prefix": "colors:greens_8_r",
+    "body": [
+      "[\n    '#005A32',\n    '#238B45',\n    '#41AB5D',\n    '#74C476',\n    '#A1D99B',\n    '#C7E9C0',\n    '#E5F5E0',\n    '#F7FCF5',\n]"
+    ],
+    "description": "Quickly generate greens_8_r colors"
   }
 }
