@@ -1,0 +1,1 @@
+_allow_dynamic_callbacks=True

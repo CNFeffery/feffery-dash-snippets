@@ -62,6 +62,8 @@
 
 - `pic=`：快捷填入`prevent_initial_call=True`
 
+- `adc=`：快捷填入`_allow_dynamic_callbacks=True`
+
 - `run:debug`：快速创建`Dash`应用`debug`模式`if __name__ == '__main__':app.run(debug=True)`结构体
 
 - `ad=`：快捷填入`allow_duplicate=True`

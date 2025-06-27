@@ -108,6 +108,12 @@ raw_snippets = [
                 'body_path': r'raw_snippets\py\prevent_initial_call.py',
             },
             {
+                'title': 'set _allow_dynamic_callbacks=True',
+                'prefix': 'adc=',
+                'description': 'Code snippet to add _allow_dynamic_callbacks=True',
+                'body_path': r'raw_snippets\py\_allow_dynamic_callbacks.py',
+            },
+            {
                 'title': 'generate dash debug mode run() structure',
                 'prefix': 'run:debug',
                 'description': 'generate dash debug mode run() structure',

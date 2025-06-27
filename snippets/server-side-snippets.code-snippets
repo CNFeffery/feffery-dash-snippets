@@ -118,6 +118,13 @@
     ],
     "description": "Code snippet to add prevent_initial_call=True"
   },
+  "set _allow_dynamic_callbacks=True": {
+    "prefix": "adc=",
+    "body": [
+      "_allow_dynamic_callbacks=True"
+    ],
+    "description": "Code snippet to add _allow_dynamic_callbacks=True"
+  },
   "generate dash debug mode run() structure": {
     "prefix": "run:debug",
     "body": [

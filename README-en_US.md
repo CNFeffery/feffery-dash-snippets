@@ -62,6 +62,8 @@
 
 - `pic=`: Quickly fill in `prevent_initial_call=True`
 
+- `adc=`: Quickly fill in `_allow_dynamic_callbacks=True`
+
 - `run:debug`: Quickly create a `Dash` app in `debug` mode with the structure `if __name__ == '__main__': app.run(debug=True)`
 
 - `ad=`: Quickly fill in `allow_duplicate=True`
