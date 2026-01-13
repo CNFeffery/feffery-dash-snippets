@@ -16,6 +16,8 @@
 
 - `ifac`: Quickly import `feffery_antd_components` (alias `fac`)
 
+- `ifi`: Quickly import `feffery_infographic` (alias `fi`)
+
 - `ifuc`: Quickly import `feffery_utils_components` (alias `fuc`)
 
 - `ifact`: Quickly import `feffery_antd_charts` (alias `fact`)

@@ -16,6 +16,8 @@
 
 - `ifac`：快捷导入`feffery_antd_components`（`fac`）
 
+- `ifi`：快捷导入`feffery_infographic`（`fi`）
+
 - `ifuc`：快捷导入`feffery_utils_components`（`fuc`）
 
 - `ifact`：快捷导入`feffery_antd_charts`（`fact`）
