@@ -62,6 +62,13 @@
     ],
     "description": "Code snippet to import famc"
   },
+  "import fi": {
+    "prefix": "ifi",
+    "body": [
+      "import feffery_infographic as fi"
+    ],
+    "description": "Code snippet to import fi"
+  },
   "quickly create flask upload api": {
     "prefix": "flask:upload",
     "body": [

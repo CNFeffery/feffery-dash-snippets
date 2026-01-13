@@ -60,6 +60,12 @@ raw_snippets = [
                 'body_path': r'raw_snippets\py\ifamc.py',
             },
             {
+                'title': 'import fi',
+                'prefix': 'ifi',
+                'description': 'Code snippet to import fi',
+                'body_path': r'raw_snippets\py\ifi.py',
+            },
+            {
                 'title': 'quickly create flask upload api',
                 'prefix': 'flask:upload',
                 'description': 'Code snippet to quickly create flask upload api template',
